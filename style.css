@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffcccb; 
+}
+
+header {
+    background-color: #388d2d; 
+    color: #ffffff; 
+    padding: 10px;
+}
+
+.card {
+    border: none;
+    margin: 10px;
+    background-color: #fffacd; 
+}
+
+.container {
+    margin-top: 30px;
+}
+
+h3 {
+    color: #117c37;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#waterIntakeChartCanvas,
+#nutritionChartCanvas {
+    margin-top: 20px;
+    background-color: #f0f8ff; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+span {
+    color: #32cd32; 
+    font-size: 70px;
+}

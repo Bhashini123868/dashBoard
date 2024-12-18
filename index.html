@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <title>Nutrition Tracker</title>
+
+</head>
+
+<body>
+
+
+    <div class="container1">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap" />
+                </svg>
+                <span class="fs-4"><b style="font-size: 50px;">HEALTHY BITES</b></span>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page"><b>Home</b></a></li>
+                <li class="nav-item"><a href="#products" class="nav-link"><b>PRODUCTS</b></a></li>
+                <li class="nav-item"><a href="#waterIntakeChart" class="nav-link"><b>WATER INTAKE</b></a></li>
+                <li class="nav-item"><a href="#nutritionChart" class="nav-link"><b>NUTRITION CHART</b></a></li>
+
+
+            </ul>
+        </header>
+    </div>
+
+    <div class="card-group" id="products">
+        <div class="card">
+            <img src="image/fruites.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 30px;">Fruites</h5>
+                <p class="card-text">Fruits are generally considered a great source of essential vitamins like vitamin
+                    C, vitamin A (beta-carotene), and potassium, alongside dietary fiber, providing a low-calorie,
+                    nutrient-dense food option. Fruits are also known for their antioxidant properties, which help
+                    protect the body from oxidative stress and reduce the risk of chronic diseases such as heart disease
+                    and cancer.</p>
+                <p class="card-text"><small class="text-muted">Nutritional content: 10% - 20%</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/bakery.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"  style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 30px;">Bakery Items</h5>
+                <p class="card-text">When describing bakery items in terms of nutrition, key points to highlight include
+                    their often high carbohydrate content, typically from refined flour, alongside varying levels of
+                    added sugar and fat.</p>
+                <p class="card-text"><small class="text-muted">Nutritional content: 21%</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/grains.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"  style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 30px;">Grains</h5>
+                <p class="card-text">Grains are important sources of many nutrients, including complex carbohydrates,
+                    dietary fiber, several B vitamins, and minerals (iron, magnesium, and selenium).</p>
+                <p class="card-text"><small class="text-muted">Nutritional content: 65%</small></p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="card-group">
+        <div class="card">
+            <img src="image/milk.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"  style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 30px;">Milk</h5>
+                <p class="card-text">Milk is a nutrient-rich beverage considered a significant source of protein,
+                    particularly casein and whey, along with essential minerals like calcium, phosphorus, and potassium.
+                </p>
+                <p class="card-text"><small class="text-muted">Nutritional content: 4.9%</small></p>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/fish.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"  style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 30px;">Fish</h5>
+                <p class="card-text">Fish is considered a highly nutritious food, providing a rich source of
+                    high-quality protein, essential omega-3 fatty acids, vitamins like vitamin D and B complex, and
+                    various minerals including selenium, iodine, phosphorus, calcium, iron, and zinc.</p>
+                <p class="card-text"><small class="text-muted">Nutritional content: 10% - 45%</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/meat.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"  style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 30px;">Meat</h5>
+                <p class="card-text">When describing meat in relation to nutrition facts, it's important to highlight
+                    its high protein content, significant source of essential vitamins like B12, and minerals like iron
+                    and zinc.</p>
+                <p class="card-text"><small class="text-muted" >Nutritional content: 1.2%</small></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card-group">
+        <div class="card">
+            <img src="image/vegetable.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"  style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 30px;">Vegetables</h5>
+                <p class="card-text">Vegetables are rich in vitamins, minerals, fiber, and antioxidants that promote
+                    health and prevent disease.</p>
+                <p class="card-text"><small class="text-muted">Nutritional content: 5% - 15%</small></p>
+            </div>
+
+        </div>
+        <div class="card">
+            <img src="image/nuts.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"  style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 30px;">Nuts</h5>
+                <p class="card-text">Nuts are packed with healthy fats, protein, and fiber, providing essential
+                    nutrients and energy.</p>
+                <p class="card-text"><small class="text-muted">Nutritional content: 50% - 60%</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/Legumes.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"  style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 30px;">Legumes</h5>
+                <p class="card-text">Legumes are high in protein, fiber, and various essential vitamins and minerals,
+                    supporting heart and digestive health.</p>
+                <p class="card-text"><small class="text-muted">Nutritional content: 20% - 30%</small></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+
+
+    <div class="container" id="waterIntakeChart">
+        <h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 50px; color: blue;">Water Intake Chart</h3>
+        <canvas id="waterIntakeChartCanvas" width="400" height="200"></canvas>
+    </div>
+    <br><br><br><br>
+
+    <div class="container" id="nutritionChart">
+        <h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 50px; color: blue;">Nutrition Chart</h3>
+        <canvas id="nutritionChartCanvas" width="400" height="200"></canvas>
+    </div>
+
+
+</body>
+
+</html>
